@@ -1,0 +1,11 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: Portfolio - Peter Zdravecký
+theme: ["PaperMod"]
+
+params:
+  homeInfoParams:
+    Title: "**Welcome** fellow visitor!"
+    Content: >
+        If you are reading this, you have found my personal portfolio. 
+
