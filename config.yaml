@@ -1,11 +1,70 @@
-baseURL: http://example.org/
+baseURL: "https://monnte.github.io/"
 languageCode: en-us
 title: Portfolio - Peter Zdravecký
 theme: ["PaperMod"]
 
-params:
-  homeInfoParams:
-    Title: "**Welcome** fellow visitor!"
-    Content: >
-        If you are reading this, you have found my personal portfolio. 
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
 
+mainsections: ["posts"]
+
+menu:
+  main:
+    - name: Search
+      url: search/
+      weight: 1
+    - name: Archive
+      url: archives/
+      weight: 5
+
+params:
+  env: production
+  title: "Portfolio - Peter Zdravecký"
+  description: >
+    Hello, I'm Peter Zdravecký, a software developer and a student. This is my personal portfolio.
+    You can find my projects, generative art, and blog posts here.
+  keywords: [Blog, Portfolio, Software Development, Generative Art, Peter Zdravecký, Computer Vision]
+  author: "Peter Zdravecký"
+  images: ["images/cover.png"]
+
+  defaultTheme: dark
+  disableThemeToggle: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  
+  homeInfoParams:
+    Title: "**Welcome** fellow visitor! 👋"
+    Content: |
+        If you are reading this, you have found my personal portfolio!
+        ---
+        \
+        To introduce myself, I am a software developer and a student.
+        I am passionate about computer vision, generative art, and software development.
+        This website is a collection of my projects, generative art, and blog posts.
+        I hope you find something interesting here and enjoy your stay.
+
+  socialIcons:
+  - name: github
+    title: Follow on GitHub
+    url: "https://github.com/monnte"
+  - name: linkedin
+    title: Connect on LinkedIn
+    url: "https://www.linkedin.com/in/peter-zdravecky/"
+  - name: envelope
+    title: Send an email
+    url: "mailto:zdravecky.zdravecky@gmail.com"
+
+  outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON
