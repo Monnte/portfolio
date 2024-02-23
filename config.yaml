@@ -36,7 +36,7 @@ params:
     You can find my projects, generative art, and blog posts here.
   keywords: [Blog, Portfolio, Software Development, Generative Art, Peter Zdravecký, Computer Vision]
   author: "Peter Zdravecký"
-  images: ["images/cover.png"]
+  images: ["cover.png"]
 
   defaultTheme: dark
   disableThemeToggle: true
