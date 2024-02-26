@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313"
+baseURL: "https://monnte.github.io/portfolio/"
 languageCode: en-us
 title: Portfolio - Peter Zdravecký
 theme: ["PaperMod"]
@@ -10,7 +10,6 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-
 mainsections: ["posts"]
 
 menu:
@@ -41,7 +40,7 @@ params:
   defaultTheme: dark
   disableThemeToggle: true
   ShowReadingTime: false
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowAllPagesInArchive: true
